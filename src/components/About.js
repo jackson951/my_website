@@ -3,6 +3,9 @@ import React from 'react';
 const About = () => {
   return (
     <section id="about">
+      <div className="about-img">
+          <img src="profile.jpg" alt="Jackson Mahlotle Khuto" />
+        </div>
       <div className="about-content">
         <h1>Hi, I'm <span>Jackson</span></h1>
         <h3>Final-Year BSc IT Student</h3>
@@ -15,9 +18,7 @@ const About = () => {
         <div className="btn-group">
           <a href="my_cv.pdf" className="btn">Download CV</a>
         </div>
-        <div className="about-img">
-          <img src="profile.jpg" alt="Jackson Mahlotle Khuto" />
-        </div>
+        
       </div>
     </section>
   );
